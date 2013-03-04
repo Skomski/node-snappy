@@ -3,8 +3,8 @@
     {
       "target_name": "binding",
       "sources": [ "src/binding.cc",
-                   "deps/libsnappy/snappy.cc",
-                   "deps/libsnappy/snappy-sinksource.cc"
+                   "deps/snappy-1.1.0/snappy.cc",
+                   "deps/snappy-1.1.0/snappy-sinksource.cc"
       ],
       "cflags": [
         "-O3",
