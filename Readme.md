@@ -7,7 +7,7 @@ Node.js bindings for Google's fast compressor/decompressor: <http://code.google.
 ## Install
 
 ```
-npm install https://github.com/Skomski/node-snappy/tarball/v1.5
+npm install https://github.com/Skomski/node-snappy/tarball/v1.5.0
 ```
 
 ## Simple Benchmark
