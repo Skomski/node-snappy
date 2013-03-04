@@ -6,6 +6,9 @@
                    "deps/snappy-1.1.0/snappy.cc",
                    "deps/snappy-1.1.0/snappy-sinksource.cc"
       ],
+      "include_dirs": [
+        "deps/snappy-1.1.0"
+      ],
       "cflags": [
         "-O3",
         "-DNDEBUG",
