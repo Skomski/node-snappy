@@ -3,6 +3,10 @@ node_js:
   - 0.6
   - 0.8
   - 0.9
+  
+matrix:
+  allow_failures:
+    - node_js: 0.9
 
 after_script:
   - "node benchmark/simple.js"
